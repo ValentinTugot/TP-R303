@@ -1,0 +1,11 @@
+$TTL	604800
+@	IN	SOA	dnsin-01.in.iutbeziers.fr. admin.iutbeziers.fr (
+			 2022090901     ; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	dnsin-01.in.iutbeziers.fr.
+dnsin-01	IN	A	10.213.2.1
+
